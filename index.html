@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot-Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Welcome to the <span>GAME!</span></h1>
+    
+    <main>
+
+        <input type="number" name="money" id="money" placeholder="Money">
+        <section class="line">
+            <div class="item lineOne"></div>
+            <div class="item lineOne"></div>
+            <div class="item lineOne"></div>
+            <div class="item lineOne"></div>
+            
+        </section>
+        <section class="line">
+            <div class="item lineTwo"></div>
+            <div class="item lineTwo"></div>
+            <div class="item lineTwo"></div>
+            <div class="item lineTwo"></div>
+        </section>
+        <section class="line">
+            <div class="item lineThree"></div>
+            <div class="item lineThree"></div>
+            <div class="item lineThree"></div>
+            <div class="item lineThree"></div>
+        </section>
+        <section class="line">
+            <div class="item lineFour"></div>
+            <div class="item lineFour"></div>
+            <div class="item lineFour"></div>
+            <div class="item lineFour"></div>
+        </section>
+        
+        <input type="button" value="Start" id="startButton">
+        <input type="button" value="Reset" id="resetButton">
+    </main>
+    <h1 id="result"></h1>
+    <h2>Lost: <span id="lostMoney">$0</span></h2>
+    <h2>Won: <span id="wonMoney">$0</span></h2>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body, main{
+  clear: both;
+}
+
+
+body{
+  flex: auto;
+  flex-flow: row wrap;
+  background: black;
+
+}
+body h1, h1{
+  text-align: center;
+  color: white;
+}
+
+body h2{
+  height: 10%;
+  color: white;
+}
+main{
+  display: flex;
+  flex-flow: row wrap;
+  width: 50em;
+  height: 40em;
+  margin: auto;
+  box-shadow: 2px 10px 10.4px 20px hsla(0, 0%, 100%, 0.35);
+}
+
+
+
+main #money{
+  width: 5em;
+  height:20%;
+  margin: auto;
+}
+/* The line (3) lines */
+main .line{
+  display: flex;
+  width: 10%;
+  flex: 1;
+  height: 100%;
+  flex-flow:column;
+  border-radius: 1%;
+  border: 10px solid gold;
+
+}
+
+/* The items inside the lines */
+.line .item{
+  display: flex;
+  flex-flow: column wrap;
+  height: 25%;
+  border: 1px solid rgb(104, 104, 104);
+  background: white;
+  font-size: 6em;
+  text-align: center;
+}
+
+/* the button to click and start the gambling! */
+main #startButton, main #resetButton{
+  height: 50%;
+  width: 9%;
+  margin: auto;
+  background:red;
+
+}
+main #resetButton{
+  background: gray;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
