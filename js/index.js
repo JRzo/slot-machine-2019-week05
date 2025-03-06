@@ -109,11 +109,11 @@ function checkWin(){
     let columnFourItems = document.querySelectorAll(".lineFour");
     let columnChecker = (items) =>{
         if(items[0].innerHTML == items[1].innerHTML && items[1].innerHTML == items[2].innerHTML &&
-            items[2].innerHTML == items[3].innerHTML){
+            items[2].innerHTML == items[3].innerHTML && items[3].innerHTML == items[4].innerHTML){
             return 1;
         }
         else{
-            console.log(items[0].innerHTML + items[1].innerHTML + items[2].innerHTML + items[3].innerHTML)
+            console.log(items[0].innerHTML + items[1].innerHTML + items[2].innerHTML + items[3].innerHTML + items[4].innerHTML)
             return 0;
         }
         
